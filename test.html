@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  <style type="text/css">
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input[type="checkbox"]:checked ~ ul > .a { order: 2; }
+  input[type="checkbox"]:checked ~ ul > .b { order: 1; }
+  input[type="checkbox"]:checked ~ ul > .c { order: 4; }
+  input[type="checkbox"]:checked ~ ul > .d { order: 3; }
+
+
+  </style>
+  </head>
+  <body>
+    <input type="checkbox" >
+    <ul>
+
+      <li class="a">a</li>
+      <li class="b">b</li>
+      <li class="c">c</li>
+      <li class="d">d</li>
+
+    </ul>
+  </body>
+</html>

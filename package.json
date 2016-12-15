@@ -1,0 +1,21 @@
+{
+  "name": "kamikaze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "kamikaze.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-vtree": "^0.0.2",
+    "html2hscript": "^2.0.1",
+    "lodash.map": "^4.6.0",
+    "traverse": "^0.6.6",
+    "vdom-to-html": "^2.3.0",
+    "virtual-dom": "^2.1.1",
+    "virtual-html": "^2.0.0"
+  }
+}
